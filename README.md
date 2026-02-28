@@ -82,7 +82,7 @@ python src/split_data.py
 
 This script will:
 - Group data by ticker
-- For each ticker, use 60% of negative news for training, and split the remaining 40% equally between validation and test sets
+- For each ticker, use 60% of news for training, and split the remaining 40% equally between validation and test sets
 - Maintain balanced positive and negative samples in the training set
 - Generate `train.csv`, `val.csv`, `test.csv`, and statistics files
 
